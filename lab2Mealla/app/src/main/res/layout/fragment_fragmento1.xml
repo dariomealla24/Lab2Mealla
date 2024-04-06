@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    tools:context=".fragmento1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="304dp"
+            android:layout_height="40dp"
+            android:text="fragnmento_uno"
+            android:textAlignment="center"
+            android:textColor="#FFFF8D"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.412"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="147dp"
+            android:layout_height="60dp"
+            android:text="Incrementar"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="325dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
